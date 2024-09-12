@@ -1,0 +1,149 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+body{
+     font-family: Montserrat, sans-serif;
+     overflow-x: hidden;
+}
+title{
+    font-weight: normal;
+}
+/* Menu*/
+#menu li > a {
+      font-size:18px;
+      font-weight: bold;
+      color: #3f3f3f;
+}
+
+#menu form > button {
+    font-size: 38px;
+    font-weight: bold;
+}
+
+
+/*Slider de Imagenes*/
+/*
+.carousel-inner{
+   max-height: 19rem; 
+}
+*/
+.slide{
+    margin-top: 0px 8 8 8;
+}
+.slide img{
+    height: 8 rem;
+} 
+
+
+/*seccion nuestro equipo*/
+
+
+/*Media queries para pantalla SM */
+
+@media (max-width:768px){
+    #intro, #Equipo{
+        width: 90% !important;
+    }
+ 
+
+}
+
+/* si queremos ocultar el titulo en pantallas pequeñas */
+/*
+#Equipo p {
+    display: none;
+}
+*/
+.servicio-fila{
+    width: 100% !important;
+    text-align: center;
+}
+#bg-contacto{
+    position: relative;
+    top: 110px;
+}
+
+
+
+
+/* Media queries pantalla extra - Sm*/
+
+@media(max-width:576px){
+    .icono-wrap{
+        flex-wrap: wrap;
+        justify-content: center !important;
+    }
+
+
+}
+
+
+
+
+/* contactos background*/
+
+#seccion-contacto{
+    background-color: #1b2a4e;
+    min-height: 500px;
+    position: relative;
+    
+}
+
+
+
+/*contacto Formulario*/
+#contenedor-formulario{
+   position: absolute;
+   top: 55%; 
+   left: 50%;
+   transform: translate(-50%, -50%);
+   background: #fbfafa;
+   border-radius: 5px;
+   max-width: 300px;
+   
+   
+}
+
+#titulo-formulario{
+    color: #3f3f3f;
+}
+/*footer*/
+footer {
+    background: #1b2a4e;
+    min-height: 300px;
+    text-align: center;
+    
+}
+footer p {
+ color: #f3f3f3;
+ 
+ font-size: 25px;
+ padding: 0 8px;
+  
+}
+
+ div i {
+    font-size: 30px;
+    padding: 0  8 30  8  ;
+    color: rgb(166, 255, 0) ;
+  
+}
+
+
+
+
+@media(max-width:1200px){
+    #local{
+        flex-wrap: wrap;
+    }
+}
+
+
+
+
+
+
+
+
+
